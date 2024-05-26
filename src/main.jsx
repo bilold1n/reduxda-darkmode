@@ -1,12 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
-import App from "./App";
-import store from "./page/store";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import { Creatstore } from "./store/themeReducer.jsx";
+import "./index.css";
 
-ReactDOM.render(
-  <Provider store={store}>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <Creatstore>
     <App />
-  </Provider>,
-  document.getElementById("root")
+  </Creatstore>
 );

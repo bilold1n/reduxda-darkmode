@@ -1,4 +1,14 @@
+.orab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
 .btn {
   padding: 10px;
-  background-color: #200f7d;
+  border: none;
+  border-radius: 8px;
+  background-color: antiquewhite;
+  cursor: pointer;
 }
